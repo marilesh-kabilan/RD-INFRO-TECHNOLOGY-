@@ -1,0 +1,28 @@
+# Define a class named Car
+class Car:
+    # Constructor method to initialize the Car object
+    def __init__(self, model, color):
+        self.model = model
+        self.color = color
+
+    # Method to display car details
+    def show_details(self):
+        print(f"Car Model: {self.model}")
+        print(f"Car Color: {self.color}")
+
+    # Method to simulate driving
+    def drive(self):
+        print(f"{self.model} is now driving!")
+
+# Create objects (instances) of the Car class
+car1 = Car("Tesla Model S", "Red")
+car2 = Car("BMW X5", "Black")
+
+# Call methods on the objects
+car1.show_details()
+car1.drive()
+
+print()  # For spacing
+
+car2.show_details()
+car2.drive()
